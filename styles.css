@@ -1,0 +1,110 @@
+:root{
+ --text-one:#138D75;
+ --text-two: #FFFFFF;
+ --text-three: #000000;
+ --border-one:#138D75;
+ --border-two:#76D7C4;
+ --bg-one: #138D75;
+ --bg-two: #76D7C4;
+ --bg-three: #FFFFFF;
+ --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+ --font-one: "Rubik", sans-serif;
+ --font-two: "Borel", cursive;
+}
+
+h1 {
+color: var(--text-three);
+text-align: center;
+font-size: 25px;
+font-family: var(--font-one);
+margin: 0;
+}
+
+.p1 {
+    color:var(--text-three);
+    text-align: left;
+    font-size: 10px;
+    font-family: var(--font-one);
+}
+
+.p2 {    color:var(--text-three);
+    text-align: center;
+    font-size: 10px;
+    font-family: var(--font-one);
+}
+.bg2 {
+    background-color: var(--bg-two);
+    margin: 2px;
+}
+
+
+h2{
+color: var(--text-one);
+text-align: center;
+font-size: 25px;
+font-family: var(--font-two);
+margin: 0;
+padding-top: 15px;
+}
+
+h3{
+    color: var(--text-two);
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--font-two);
+    margin: 0;
+    padding-top: 15px;
+    }
+
+.navigation-links {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+gap: 10px;
+}
+
+.linkbutton {
+color: var(--text-three);
+background-color: var(--bg-three);
+text-decoration: none;
+border: 2px solid var(--border-one);
+padding: 10px 20px;
+box-shadow: var(--box-shadow);
+border-radius: 4px;
+font-family: var(--font-one);
+}
+
+.contactbutton {
+color: var(--text-two);
+background-color: var(--bg-one);
+text-decoration: none;
+border: 2px solid var(--border-one);
+padding: 10px 20px;
+box-shadow: var(--box-shadow);
+border-radius: 4px;
+font-family: var(--font-one);
+}
+
+
+a:link, a:visited {
+    color: var(--text-three);
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a:hover {
+      color: var(--text-one);
+  }
+  
+  .contact-text1 {
+      color: var(--text-three);
+      max-width: 200px;
+      max-height:400px;
+     text-decoration: none;
+     align-content: center;
+     padding: 10px 20px;
+     font-family: var(--font-one);
+  }
+
